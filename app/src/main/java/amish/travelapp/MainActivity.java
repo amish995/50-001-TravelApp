@@ -80,11 +80,11 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.attr_loc) {
             // Handle the Attraction Locator Action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.itin_plan) {
             // Handle the Itinerary Planner Action
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.tip_calc) {
             // Handle the Tip Calculator Action
         }
 
