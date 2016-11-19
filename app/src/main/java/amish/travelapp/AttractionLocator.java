@@ -78,6 +78,7 @@ public class AttractionLocator extends MainActivity implements OnMapReadyCallbac
         List<Address> addressList = null;
         final EditText attrName = (EditText) findViewById(R.id.attr_name);
         String attr_to_loc = attrName.getText().toString();
+        attr_to_loc = SpellChecker.check_spelling(attr_to_loc);
         if (attr_to_loc != null || !attr_to_loc.equals("")){
             Geocoder geocoder = new Geocoder(this);
             try {
