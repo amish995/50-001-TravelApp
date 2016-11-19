@@ -15,7 +15,9 @@ public class TSPSolver {
         ArrayList<String> temp = new ArrayList<String>(Arrays.asList("Zoo","Buddha Tooth Relic Temple","Vivo City","Resorts World Sentosa","Singapore Flyer"));
         ArrayList<ArrayList<String>> permutationList = new ArrayList<ArrayList<String>>();
         ArrayList<String> soln = new ArrayList<String>();
+
         permutationList = tsp.createPermutations(temp);
+        System.out.println(permutationList);
         soln = tsp.getOptimalPath(permutationList);
         System.out.println(soln);
 
