@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity
             // Handle the Itinerary Planner Action
         } else if (id == R.id.tip_calc) {
             // Handle the Tip Calculator Action
+            Intent tipCalIntent = new Intent(this, TipCalc.class);
+            startActivity(tipCalIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
