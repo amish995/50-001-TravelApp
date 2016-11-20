@@ -60,7 +60,9 @@ The mode of transport from node to node will be first calculated by taking the c
    ***
 ### Tip Calculator
 Finally, we have implemented a simple tip calculator for the users to easily calculate how much they should tip. The user can input the amount they spent, and a tip level (low, medium or high). The app will output the amount the user should tip.  
-![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Tip%20Calculator.png)  
+
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Tip1.png) ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Tip2.png)
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Tip3.png)
   
   ***
 ###Future Improvements 
