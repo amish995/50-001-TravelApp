@@ -56,7 +56,8 @@ public class TipCalc extends MainActivity {
                 }
                 else{
                     double tipAmount = billAmount*tip_level/100;
-                    String textToDisp = "Tip Amount: " + tipAmount;
+
+                    String textToDisp = "Tip Amount: " + (double)Math.round(tipAmount*100d)/100d;
                     tipAmt.setText(textToDisp);
                 }
             }
