@@ -29,11 +29,11 @@ Planning the route to multiple locations with minimal travel time can be a pain.
 Two methods are employed to do this -- brute force and fast approximation. 
 
 The general structure of this generator can be broken down into the following: 
-1. Taking user’s input for the list of attractions and the budget for transportation. 
-2. Find the average time (taxi time, public transport time, walking time) required to travel between two points. 
-3. Get the shortest route to traverse all attractions, using either brute force or fast approximation
-4. Find the time optimal transportation method that is within budget. 
-5. Return the itinerary and the cost required. 
+1. Taking user’s input for the list of attractions and the budget for transportation.  
+2. Find the average time (taxi time, public transport time, walking time) required to travel between two points.   
+3. Get the shortest route to traverse all attractions, using either brute force or fast approximation.  
+4. Find the time optimal transportation method that is within budget.   
+5. Return the itinerary and the cost required.   
 
 
 
