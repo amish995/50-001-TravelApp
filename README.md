@@ -9,14 +9,16 @@
 
 ## Our application
 This application is made with the intention to improve the travelling experience through the implementation of an Itinerary Planner, Tourist Attraction Locator and Tip Calculator. The UI is built to be simple and easy to understand, for quick use during a busy day. The Itinerary Planner optimises your journey based on time and cost, giving you the best route to your desired locations. 
-
+  
 ## Functionalities
 ### Overview
 Our app makes use of Android's visual structure, allowing users to navigate through our functions through a drawer, accessible from the top left corner. 
+  
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/App%20Drawer.png)
-
+  
 ### Attraction locator 
 Users can input attractions they wish to visit, and the app will locate it on the in built map. Users can also choose to switch betweeen normal and satellite view. 
+  
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-1.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-2.png)
 
