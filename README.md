@@ -14,13 +14,13 @@ This application is made with the intention to improve the travelling experience
 ### Overview
 Our app makes use of Android's visual structure, allowing users to navigate through our functions through a drawer, accessible from the top left corner. 
   
-![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/App%20Drawer.png =100x)
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/App%20Drawer.png)
   
 ### Attraction locator 
 Users can input attractions they wish to visit, and the app will locate it on the in built map. Users can also choose to switch betweeen normal and satellite view. 
   
-![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-1.png =100x)
-![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-2.png =100x)
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-1.png)
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-2.png)
 
 ### Itinerary planner
 Planning the route to multiple locations with minimal travel time can be a pain. Our app will help users generate an optimal route that traverses all destinations they hope to visit within their transportation budget. 
