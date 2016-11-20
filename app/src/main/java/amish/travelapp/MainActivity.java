@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(attrLocIntent);
         } else if (id == R.id.itin_plan) {
             // Handle the Itinerary Planner Action
+            Intent itineraryPlanner = new Intent(this,RouteFinder.class);
+            startActivity(itineraryPlanner);
         } else if (id == R.id.tip_calc) {
             // Handle the Tip Calculator Action
             Intent tipCalIntent = new Intent(this, TipCalc.class);
