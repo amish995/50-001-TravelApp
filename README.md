@@ -28,6 +28,7 @@ Planning the route to multiple locations with minimal travel time can be a pain.
 
 Users can select from a drop down menu the attractions they wish to visit and add it to the list. The transportation budget can be keyed in using a number pad. The user can then choose to generate their optimal path using either the brute force method or the fast approximation method. 
 
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Itinerary%20Planner-1.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Itinerary%20Planner-2.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Itinerary%20Planner-3.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Itinerary%20Planner-4.png)
@@ -50,7 +51,14 @@ The brute force approach generates all possible permutations of the provided lis
 
 **Fast Approximation**
 The fast approximation approach uses the nearest neighbor algorithm to generate an approximated shortest path. This algorithm takes an arbitrary starting node, then finds the shortest path to the next unvisited node, N. Node N is then marked as visited, and it will find the shortest path to the next unvisited node again. 
-After generating this as an arrayList, we iterate through this list, swapping the nodes if the swap reduces travelling time. 
+After generating this as an arrayList, we iterate through this list, swapping the nodes if the swap reduces travelling time.   
+
+**Selection of Transport Modes**
 
 
+### Tip Calculator
+Finally, we have implemented a simple tip calculator for the users to easily calculate how much they should tip. The user can input the amount they spent, and a tip level (low, medium or high). The app will output the amount the user should tip.  
+![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Tip%20Calculator.png)  
 
+###Future Improvements 
+The app could be updated to include more of the attractions within Singapore, possibly with a dynamically updated list of attractions that updates in real time. 
