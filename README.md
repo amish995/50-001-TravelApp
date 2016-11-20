@@ -8,4 +8,4 @@
 - Ruth Wong
 
 ### Our application
-
+This application is made with the intention to improve the travelling experience through an it
