@@ -45,15 +45,15 @@ The general structure of this generator can be broken down into the following:
 4. Find the time optimal transportation method that is within budget.   
 5. Return the itinerary and the cost required.   
 
-**Brute Force**
+**Brute Force**   
 The brute force approach generates all possible permutations of the provided list of attractions. It generates an time average of the 3 transport methods and picks the best route based on the time average. 
 
 
-**Fast Approximation**
+**Fast Approximation**    
 The fast approximation approach uses the nearest neighbor algorithm to generate an approximated shortest path. This algorithm takes an arbitrary starting node, then finds the shortest path to the next unvisited node, N. Node N is then marked as visited, and it will find the shortest path to the next unvisited node again. 
 After generating this as an arrayList, we iterate through this list, swapping the nodes if the swap reduces travelling time.   
 
-**Selection of Transport Modes**
+**Selection of Transport Modes**    
 
 
 ### Tip Calculator
