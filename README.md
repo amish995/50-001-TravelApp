@@ -21,6 +21,8 @@ Our app makes use of Android's visual structure, allowing users to navigate thro
 Users can input attractions they wish to visit, and the app will locate it on the in built map. Users can also choose to switch betweeen normal and satellite view.
 The attraction locator uses the Google Maps API, with the mapFragment receives the instructiions through requests sent in via methods called on the GoogleMap object instance.
 
+However, we also use a fuzzy regex autocorrect algorithm for spell checking. The library uses edit distance to find the closest approximated word for the items in the dictionary. Thus, using sentoza or sentozza will result in Sentosa, but Santuzzzzza, will not. We use the frej fuzzy regex library for this particular regex as opposed to the standard java.util.regex library.
+
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-1.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-2.png)
 ![overview](https://github.com/amish995/50-001-TravelApp/blob/master/screenshots/Attraction%20Locator-3.png)
